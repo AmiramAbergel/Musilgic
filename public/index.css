@@ -1,0 +1,80 @@
+body {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#mydiv {
+  position: absolute;
+  left: 100px;
+  z-index: 18;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+#mydivheader {
+  padding: 20px;
+  cursor: move;
+  z-index: 10;
+  background-color: rgba(181, 139, 63, 0.626);
+  color: #fff;
+}
+
+
+#mydiv2 {
+  position: absolute;
+  left: 300px;
+  position: absolute;
+  z-index: 18;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+#mydivheader2 {
+  padding: 20px;
+  cursor: move;
+  z-index: 10;
+  background-color: rgba(181, 139, 63, 0.626);
+  color: #fff;
+}
+
+
+#mydiv3 {
+  position: absolute;
+  left: 600px;
+  position: absolute;
+  z-index: 18;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+#mydivheader3 {
+  padding: 20px;
+  cursor: move;
+  z-index: 10;
+  background-color: rgba(181, 139, 63, 0.626);
+  color: #fff;
+}
+
+
+.righttoleft {
+  text-align:right;
+  direction:rtl;
+}
+
+body {
+  background-color: lightblue;
+}
